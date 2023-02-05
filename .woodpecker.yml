@@ -1,0 +1,11 @@
+pipeline:
+  build:
+    image: node:18-alpine
+    commands:
+      - npm build
+
+# services:
+#   postgres:
+#     image: postgres:9.4.5
+#     environment:
+#       - POSTGRES_USER=myapp
